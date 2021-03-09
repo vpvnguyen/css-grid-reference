@@ -1,0 +1,13 @@
+* {
+  border: 1px solid green;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.grid-item1 {
+  grid-column: 1 / span 4;
+}
