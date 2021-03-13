@@ -31,3 +31,14 @@ body {
   grid-column: 1 / span 4;
   grid-row: 5;
 }
+
+.grid-item4 {
+  background-color: red;
+  grid-row: 3;
+}
+
+.grid-item5 {
+  background-color: brown;
+  grid-row: 3;
+  grid-column: 4 / span 2;
+}
